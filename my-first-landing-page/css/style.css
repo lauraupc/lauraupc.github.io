@@ -1,0 +1,111 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Poppins thin', sans-serif;
+  font-weight: 300;
+}
+.bg {
+    background-image: url('../images/headerback.jpg');
+    margin-left: -300px;
+    height: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-container {
+  float:right;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width:50%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+/*navbar style*/
+.navbar{ background:rgba(244, 244, 244, 0.1);}
+.nav-link{ color: #fff; cursor: pointer;}
+.navbar-brand{ color: #fff; cursor: pointer;}
+.navbar-brand:hover{ color: #F4F277; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background:rgba(244, 244, 244, 0.5); color: #B90C10; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{ background:#fff !important;}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header {
+  /*background-image: url('../images/headerback.jpg');*/
+  background-position: top right;
+  background-size: cover;
+  height: 100%;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+/*header style*/
+.header{
+ /*background-image: url('../images/headerback.jpg');*/
+ background-attachment: fixed;
+ background-size: top margin-left;
+ background-position: right top;
+ background-color: black;
+}
+
+.description{
+ margin: auto;
+ padding: 2em;
+
+}
+.description h1{
+ background: transparent;
+ margin: 100px 0 30px 0;
+ font-weight: 900;
+ background: -webkit-linear-gradient(#7790ea, #c871f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description p{
+ color:#fff;
+ font-size: 20px;
+ font-weight: 300;
+ line-height: 1.5;
+ font-family: 'Poppins thin', sans-serif;
+}
+.description button{
+ border:1px  solid #fd6b54;
+ background:#fd6b54;
+ color:#000;
+}
